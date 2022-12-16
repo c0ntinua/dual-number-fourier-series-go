@@ -11,3 +11,5 @@ The target function, the 'pursuit' function, and the individual component waves 
 The target function is approximated with something like a Fourier series.
 
 The frequencies are real numbers, however, and not just natural numbers (this is easily changed.)
+
+Thanks to the lovely simplicity of Go, which is winning me over as I just begin to really use it, you can read off instructions for steering the live curve-fitting from input.go.
