@@ -1,5 +1,10 @@
 # dual-number-fourier-series-go
 
+Here's some crucial background!
+
+https://en.wikipedia.org/wiki/Fourier_series
+https://en.wikipedia.org/wiki/Dual_number
+
 This program uses dual numbers for forward-mode auto-differentiation to express a target function as a sum of sine waves.
 
 The target function is itself a sum of sine waves in the same parameterized family, though this is easily changed.
