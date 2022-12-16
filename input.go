@@ -7,10 +7,10 @@ func respondToUser() {
 		randomizeData()
 	}
 	if rl.IsKeyReleased(rl.KeyP) {
-		p = randomParameters()
+		p = randomParameters(numPursuitWaves)
 	}
 	if rl.IsKeyReleased(rl.KeyT) {
-		q = randomParameters()
+		q = randomParameters(numTargetWaves)
 	}
 	if rl.IsKeyReleased(rl.KeyQ) {
 		rl.CloseWindow()

@@ -21,7 +21,7 @@ var targetThickness = Real(10)
 var frameThickness = float32(10)
 var waveHue = uint8(40)
 
-var waveColors = make([]color.RGBA, numWaves)
+var waveColors = make([]color.RGBA, numPursuitWaves)
 var targetColor = color.RGBA{0, 0, 255, 255}
 var waveSumColor = color.RGBA{255, 0, 0, 255}
 var waveColor = color.RGBA{waveHue, waveHue, waveHue, 255}

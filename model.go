@@ -2,7 +2,7 @@ package main
 
 func waveSum(p []Dual, x Dual) Dual {
 	var sum Dual
-	for i := 0; i < numWaves; i++ {
+	for i := 0; i < len(p)/3; i++ {
 		sum = dualSum(sum, wave(p[3*i:3*i+3], x))
 	}
 	return sum

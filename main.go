@@ -12,7 +12,7 @@ func main() {
 		rl.ClearBackground(backgroundColor)
 
 		if showingWaves {
-			for i := 0; i < numWaves; i++ {
+			for i := 0; i < numPursuitWaves; i++ {
 				plotFunction(p[3*i:3*i+3], wave, waveColor)
 			}
 		}

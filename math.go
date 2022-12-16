@@ -1,14 +1,14 @@
 package main
 
-var numWaves = int(9)
-var numParameters = int(3 * numWaves)
+var numPursuitWaves = int(6)
+var numTargetWaves = int(19)
+
 var numData = int(21)
 
 var rate = Real(0.0001)
-var p = randomParameters()
-var q = randomParameters()
-var data = make([]Datum, numData)
-var grad = make([]Real, 3*numWaves)
+var p = randomParameters(numPursuitWaves)
+var q = randomParameters(numTargetWaves)
+var grad = make([]Real, 3*numPursuitWaves)
 var last_loss Dual
 var maxInitialWaveMagnitude = Real(0.5)
 var T int = 0
