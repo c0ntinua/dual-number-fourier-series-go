@@ -11,9 +11,14 @@ func main() {
 		rl.BeginDrawing()
 		rl.ClearBackground(backgroundColor)
 
-		if showingWaves {
+		if showingPursuitWaves {
 			for i := 0; i < numPursuitWaves; i++ {
-				plotFunction(p[3*i:3*i+3], wave, waveColor)
+				plotFunction(p[3*i:3*i+3], wave, pursuitWaveColor)
+			}
+		}
+		if showingTargetWaves {
+			for i := 0; i < numTargetWaves; i++ {
+				plotFunction(q[3*i:3*i+3], wave, targetWaveColor)
 			}
 		}
 		if learningFromTarget {

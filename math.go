@@ -1,7 +1,7 @@
 package main
 
 var numPursuitWaves = int(6)
-var numTargetWaves = int(19)
+var numTargetWaves = int(9)
 
 var numData = int(21)
 
