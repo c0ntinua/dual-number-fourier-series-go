@@ -17,4 +17,4 @@ The target function is approximated with something like a Fourier series.
 
 The frequencies are real numbers, however, and not just natural numbers (this is easily changed.)
 
-Thanks to the lovely simplicity of Go, you can read off instructions for steering the live curve-fitting from input.go.
+If you want to try it, you can read off instructions from input.go. 
